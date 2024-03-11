@@ -395,10 +395,12 @@ nav {
   .nav-links {
     display: flex;
     justify-content: center;
+    align-self: stretch;
   }
   .nav-center {
     display: grid;
     grid-template-columns: auto 1fr;
+    align-self: stretch;
   }
   .nav-link {
     border: 2px solid blue;
